@@ -14,7 +14,7 @@ export default function(props){
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responseTopRatedLessons = await fetch(`https://localhost:7117/TopRatedLessons`);
+        const responseTopRatedLessons = await fetch(`https://video-english.azurewebsites.net/TopRatedLessons`);
         const dataTopRatedLessons = await responseTopRatedLessons.json();
         setTopRatedLessons(dataTopRatedLessons);
 
