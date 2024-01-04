@@ -24,7 +24,7 @@ Window.userId = userId;
       <header>
         <h2> EnglishApp</h2> 
         <nav>
-        <Link to="EnglishApp-UI/">Home</Link>
+        <Link to="EnglishApp-UI/">Homee</Link>
         {Window.userId === null ? (
             <Link to="/signIn">Dictionary</Link>
           ) : (
