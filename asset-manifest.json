@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EnglishApp-UI/static/css/main.ab46f86e.css",
-    "main.js": "/EnglishApp-UI/static/js/main.aa5923d7.js",
+    "main.js": "/EnglishApp-UI/static/js/main.368b219e.js",
     "static/js/787.0f7dc5a1.chunk.js": "/EnglishApp-UI/static/js/787.0f7dc5a1.chunk.js",
     "static/media/BackgroundImg3.jpg": "/EnglishApp-UI/static/media/BackgroundImg3.fd2b41e9b1131c38283a.jpg",
     "static/media/TeacherImg.png": "/EnglishApp-UI/static/media/TeacherImg.bb2366a2a734289aadad.png",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "/EnglishApp-UI/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EnglishApp-UI/index.html",
     "main.ab46f86e.css.map": "/EnglishApp-UI/static/css/main.ab46f86e.css.map",
-    "main.aa5923d7.js.map": "/EnglishApp-UI/static/js/main.aa5923d7.js.map",
+    "main.368b219e.js.map": "/EnglishApp-UI/static/js/main.368b219e.js.map",
     "787.0f7dc5a1.chunk.js.map": "/EnglishApp-UI/static/js/787.0f7dc5a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab46f86e.css",
-    "static/js/main.aa5923d7.js"
+    "static/js/main.368b219e.js"
   ]
 }
