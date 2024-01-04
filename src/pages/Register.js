@@ -36,7 +36,7 @@ export default function Register() {
     }
 
     try {
-      const response = await axios.post('https://localhost:7117/api/User', {
+      const response = await axios.post('https://video-english.azurewebsites.net/api/User', {
         firstName: firstName,
         lastName: lastName,
         email: email,

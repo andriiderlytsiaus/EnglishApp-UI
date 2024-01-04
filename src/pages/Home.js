@@ -23,8 +23,8 @@ export default function(props){
       }
 
       try {
-        const responseLessons = await fetch(`https://localhost:7117/api/Lesson/MyLessons/${props.userId}`);
-        const responseTopRatedLessons = await fetch(`https://localhost:7117/TopRatedLessons`);
+        const responseLessons = await fetch(`https://video-english.azurewebsites.net/api/Lesson/MyLessons/${props.userId}`);
+        const responseTopRatedLessons = await fetch(`https://video-english.azurewebsites.net/TopRatedLessons`);
         const dataLessons = await responseLessons.json();
         const dataTopRatedLessons = await responseTopRatedLessons.json();
         setLessons(dataLessons.reverse());

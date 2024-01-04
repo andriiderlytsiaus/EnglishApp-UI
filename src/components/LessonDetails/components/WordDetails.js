@@ -9,7 +9,7 @@ export default function WordDetails(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const apiUrl = `https://localhost:7117/GetInfo/${props.selectedWord}`;
+        const apiUrl = `https://video-english.azurewebsites.net/GetInfo/${props.selectedWord}`;
         const response = await fetch(apiUrl);
         const data = await response.json();
 

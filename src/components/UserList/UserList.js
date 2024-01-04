@@ -9,7 +9,7 @@ const ApiComponent = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://localhost:7117/api/User');
+        const response = await fetch('https://video-english.azurewebsites.net/api/User');
         const result = await response.json();
         setData(result);
       } catch (error) {

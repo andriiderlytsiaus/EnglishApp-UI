@@ -24,7 +24,7 @@ export default function Wallpaper() {
     };
 
     try {
-      const response = await fetch('https://localhost:7117/api/Lesson', {
+      const response = await fetch('https://video-english.azurewebsites.net/api/Lesson', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

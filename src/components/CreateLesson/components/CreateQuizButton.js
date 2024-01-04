@@ -21,7 +21,7 @@ const CreateQuizButton = ({ quiz, type }) => {
     };
 
     try {
-      const response = await fetch('https://localhost:7117/api/Quiz', {
+      const response = await fetch('https://video-english.azurewebsites.net/api/Quiz', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -12,7 +12,7 @@ export default function Lecture() {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch(`https://localhost:7117/api/Lesson/AddTheory/${lessonId}`, {
+      const response = await fetch(`https://video-english.azurewebsites.net/api/Lesson/AddTheory/${lessonId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

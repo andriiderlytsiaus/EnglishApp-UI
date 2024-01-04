@@ -28,7 +28,7 @@ export default function Rating({ lesson }) {
   };
 
   const sendRating = (value) => {
-      fetch(`https://localhost:7117/api/Lesson/AddRating/${lesson.id}`, {
+      fetch(`https://video-english.azurewebsites.net/api/Lesson/AddRating/${lesson.id}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
