@@ -11,10 +11,14 @@ import './App.css';
 
 function App() {
   const [userId, setUserId] = useState(null);
+  const [userName, setUserName] = useState("Account");
   Window.userId = userId;
+  Window.userName = "Account";
 
-  const handleSignIn = (id) => {
+  const handleSignIn = (id, name) => {
     setUserId(id);
+    setUserName(name);
+
   };
 
   useEffect(() => {
@@ -33,7 +37,7 @@ function App() {
             <Link to="/words">Dictionary</Link>
           )}
         </nav>
-        <Link to="/signIn" id='SignInLink' className='SignInButton'>Account</Link>
+        <Link to="/signIn" id='SignInLink' className='SignInButton'>{userName}</Link>
       </header>
       <main>
         <Routes>

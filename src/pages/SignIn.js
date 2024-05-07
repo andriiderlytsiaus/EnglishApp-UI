@@ -32,8 +32,9 @@ function SignIn({ onSignIn }) {
       });
 
 
-      const userId = response.data;
-      onSignIn(userId);
+      const userId = response.data.id;
+      const userName = response.data.firstName + " " + response.data.lastName;
+      onSignIn(userId, userName);
 
       navigate('/home');
     } catch (error) {
