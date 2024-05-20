@@ -25,6 +25,13 @@ function App() {
     console.log('User ID in Parent Component:', userId);
   }, [userId]);
 
+
+    const [isOpen, setIsOpen] = useState(false);
+  
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+      console.log(isOpen);
+    };
   return (
     <BrowserRouter basename="/EnglishApp-UI">
       <header>
@@ -37,8 +44,23 @@ function App() {
             <Link to="/words">Dictionary</Link>
           )}
         </nav>
-        <Link to="/signIn" id='SignInLink' className='SignInButton'>{userName}</Link>
-      </header>
+        {
+          userName === 'Account' ? (
+            <Link to="/signIn" id='AccountIcon'  >Account</Link>
+          ) :(
+            <span id='UserIcon'   onClick={toggleDropdown} >{userName}</span>
+          )
+        }
+
+
+
+        {isOpen  && (
+        <ul className ='DropDownProfile'>
+          <Link to="/signIn" id='SignInLink' onClick={toggleDropdown} >Another Account</Link>
+        </ul>
+      )}
+
+      </header> 
       <main>
         <Routes>
           <Route index element={<Home userId={userId} />} />

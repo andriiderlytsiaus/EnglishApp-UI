@@ -43,16 +43,7 @@ nav a {
   font-size: large;
 }
 
-#SignInLink {
-  color: white;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  font-size: 18px;
-  justify-content: flex-end;
-  padding-right: 80px;
-}
+
 
 
 
