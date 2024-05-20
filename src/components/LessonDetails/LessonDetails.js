@@ -112,7 +112,7 @@ const LessonDetails = ({ lesson }) => {
   };
 
   return (
-    <div>
+    <div className="LessonContainer">
       <div className="Lesson">
         <div className="lesson-details-container">
           <div>

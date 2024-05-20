@@ -1,14 +1,20 @@
 
+.LessonContainer{
 
+  max-width: 1350px;
+  margin: auto;
+  padding: 15px;
+}
 .Lesson {
   display: grid;
   grid-template-columns:  5fr 3fr;
   gap: 10px;
-  margin: 5px 70px;
+
+
 }
 .lesson-details-container {
-    max-width: 800px;
-    margin: 0 auto;
+
+
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -17,9 +23,10 @@
   .lecture-quiz-container{
     display: grid;
     grid-template-columns:  5fr 4fr;
-    gap: 10px;
-    margin: 10px 70px;
+    gap: 15px;
     height: 700px;
+    margin-top: 15px;
+    margin-left: 5px;
   }
   
   .rating-word-container{

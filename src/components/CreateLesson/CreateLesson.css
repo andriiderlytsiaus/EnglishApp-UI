@@ -1,9 +1,13 @@
 
+
+
 .container {
     display: grid;
     grid-template-columns:  160px 6fr 4fr ;
     gap: 10px;
-    margin: 8px 10px;
+    margin: 8px auto;
+    max-width: 1550px;
+
 
   }
   .lesson-content-creator{
