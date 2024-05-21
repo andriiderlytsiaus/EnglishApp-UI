@@ -8,18 +8,33 @@ import Img from '../../img/FillInTheBlanksImg.jpg'
 const descriptionData = [
   {
     id: 1,
-    name: 'Captions',
-    description: 'Embark on a Transformative Learning Odyssey! Unleash the Power of Interactivity! Dive into a Dynamic Experience - Click on Any Word to Reveal Transcription, Explore Comprehensive Definitions, and Illuminate Your Understanding with Examples. This is Education Redefined!',
-  },
-  {
-    id: 1,
     name: 'Different types of exercises',
-    description: 'Embark on a dynamic learning journey with our platform, offering a selection of diverse exercises to cater to your preferences. Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
   },
   {
-    id: 1,
-    name: 'Dictionary',
-    description: 'Unlock Knowledge at Your Fingertips! Seamlessly click to save unfamiliar words, unveil transcriptions, delve into exhaustive definitions, and explore enlightening examples. Transform your learning journey with our built-in dictionary – your gateway to a wealth of language insights! ',
+    id: 2,
+    name: 'Different types of exercises',
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
+  },
+  {
+    id: 3,
+    name: 'Different types of exercises',
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
+  },
+  {
+    id: 4,
+    name: 'Different types of exercises',
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
+  },
+  {
+    id: 3,
+    name: 'Different types of exercises',
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
+  },
+  {
+    id: 4,
+    name: 'Different types of exercises',
+    description: 'Choose from tasks like filling in the blanks, matching words with definitions, tackling multiple-choice challenges, or testing your knowledge with true-false questions'
   },
 
 ];
@@ -29,7 +44,7 @@ const Carrousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false,
     centerMode: true,        

@@ -2,7 +2,10 @@
 .SavedWordsPage{
   display: grid;
   grid-template-columns: 2fr 3fr;
-  margin: 10px 90px;
+  width: 1000px;
+  margin: 30px auto 40px auto;
+  height: 650px;
+
 }
 
 .SavedWordsContainer {
@@ -10,6 +13,11 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 610px; 
+    overflow: auto;
+  }
+  .SavedWordsContainer::-webkit-scrollbar {
+    display: none;
   }
   
   .SavedWordsList {
@@ -31,4 +39,5 @@
     color: #3498db;
     cursor: pointer;
   }
+
   
