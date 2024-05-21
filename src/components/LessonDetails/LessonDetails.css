@@ -4,17 +4,14 @@
   max-width: 1350px;
   margin: auto;
   padding: 15px;
+  
 }
 .Lesson {
   display: grid;
   grid-template-columns:  5fr 3fr;
   gap: 10px;
-
-
 }
 .lesson-details-container {
-
-
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;

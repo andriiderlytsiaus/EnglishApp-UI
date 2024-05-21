@@ -42,6 +42,13 @@
     cursor: pointer;
   }
 
+  .Title{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+  }
 
 
 

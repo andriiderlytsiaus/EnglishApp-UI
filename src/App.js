@@ -35,7 +35,7 @@ function App() {
   return (
     <BrowserRouter basename="/EnglishApp-UI">
       <header>
-        <h2> EnglishApp</h2>
+        <Link to="/home" class ="Title">VideoEnglish</Link>
         <nav>
           <Link to="/home">Home</Link>
           {Window.userId === null ? (

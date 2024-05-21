@@ -5,10 +5,11 @@ export default function LessonItem(props) {
   const { title, youTubeVideoId, id } = props.lesson;
 
   const containerStyle = {
-    maxWidth: '300px',
-    margin: '0 auto',
+    width: '300px',
+    height: '205px',
+    margin: '0',
     padding: '10px',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.16)',
     borderRadius: '8px',
     overflow: 'hidden',
   };
@@ -35,6 +36,7 @@ export default function LessonItem(props) {
     fontSize: '1em',
     color: '#333',
     textDecoration: 'none',
+  
     
   };
 
