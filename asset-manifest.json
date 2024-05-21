@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EnglishApp-UI/static/css/main.be00b1df.css",
-    "main.js": "/EnglishApp-UI/static/js/main.27bf0ce4.js",
+    "main.css": "/EnglishApp-UI/static/css/main.42f4fac8.css",
+    "main.js": "/EnglishApp-UI/static/js/main.8e25da24.js",
     "static/js/787.0f7dc5a1.chunk.js": "/EnglishApp-UI/static/js/787.0f7dc5a1.chunk.js",
     "static/media/BackgroundImg3.jpg": "/EnglishApp-UI/static/media/BackgroundImg3.fd2b41e9b1131c38283a.jpg",
     "static/media/TeacherImg.png": "/EnglishApp-UI/static/media/TeacherImg.bb2366a2a734289aadad.png",
@@ -15,12 +15,12 @@
     "static/media/slick.ttf": "/EnglishApp-UI/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/EnglishApp-UI/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EnglishApp-UI/index.html",
-    "main.be00b1df.css.map": "/EnglishApp-UI/static/css/main.be00b1df.css.map",
-    "main.27bf0ce4.js.map": "/EnglishApp-UI/static/js/main.27bf0ce4.js.map",
+    "main.42f4fac8.css.map": "/EnglishApp-UI/static/css/main.42f4fac8.css.map",
+    "main.8e25da24.js.map": "/EnglishApp-UI/static/js/main.8e25da24.js.map",
     "787.0f7dc5a1.chunk.js.map": "/EnglishApp-UI/static/js/787.0f7dc5a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be00b1df.css",
-    "static/js/main.27bf0ce4.js"
+    "static/css/main.42f4fac8.css",
+    "static/js/main.8e25da24.js"
   ]
 }
