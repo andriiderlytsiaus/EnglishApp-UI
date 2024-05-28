@@ -19,7 +19,7 @@ const CreateLesson = () => {
   useEffect(() => {
     const fetchLesson = async () => {
       try {
-        const response = await fetch(`https://video-english.azurewebsites.net/api/Lesson/${lessonId}`);
+        const response = await fetch(`${Window.route}/api/Lesson/${lessonId}`);
         const data = await response.json();
         setLesson(data);
       } catch (error) {

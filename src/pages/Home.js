@@ -14,7 +14,7 @@ export default function(props){
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responseTopRatedLessons = await fetch(`https://video-english.azurewebsites.net/TopRatedLessons`);
+        const responseTopRatedLessons = await fetch(`${Window.route}/TopRatedLessons`);
         const dataTopRatedLessons = await responseTopRatedLessons.json();
         setTopRatedLessons(dataTopRatedLessons);
 
@@ -23,8 +23,8 @@ export default function(props){
       }
 
       try {
-        const responseLessons = await fetch(`https://video-english.azurewebsites.net/api/Lesson/MyLessons/${props.userId}`);
-        const responseTopRatedLessons = await fetch(`https://video-english.azurewebsites.net/TopRatedLessons`);
+        const responseLessons = await fetch(`${Window.route}/api/Lesson/MyLessons/${props.userId}`);
+        const responseTopRatedLessons = await fetch(`${Window.route}/TopRatedLessons`);
         const dataLessons = await responseLessons.json();
         const dataTopRatedLessons = await responseTopRatedLessons.json();
         setLessons(dataLessons.reverse());

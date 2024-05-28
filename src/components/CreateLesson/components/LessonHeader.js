@@ -22,7 +22,7 @@ const LessonForm = () => {
     };
 
     try {
-      const response = await fetch('https://video-english.azurewebsites.net/api/Lesson/LessonInfo', {
+      const response = await fetch(`${Window.route}/api/Lesson/LessonInfo`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

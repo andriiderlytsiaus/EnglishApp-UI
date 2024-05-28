@@ -13,7 +13,7 @@ const YourComponent = (props) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://video-english.azurewebsites.net/SavedWordsByUser/${props.userId}`);
+        const response = await fetch(`${Window.route}/SavedWordsByUser/${props.userId}`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

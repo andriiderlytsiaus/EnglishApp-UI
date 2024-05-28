@@ -10,7 +10,7 @@ export default function SavedWordDetails(props) {
 
     const fetchData = async () => {
       try {
-        const apiUrl = `https://video-english.azurewebsites.net/GetInfo/${props.selectedWord}`;
+        const apiUrl = `${Window.route}/GetInfo/${props.selectedWord}`;
         const response = await fetch(apiUrl);
         const data = await response.json();
 

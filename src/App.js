@@ -14,6 +14,7 @@ function App() {
   const [userName, setUserName] = useState("Account");
   Window.userId = userId;
   Window.userName = "Account";
+  Window.route = 'https://videoenglishapi.azurewebsites.net';
 
   const handleSignIn = (id, name) => {
     setUserId(id);

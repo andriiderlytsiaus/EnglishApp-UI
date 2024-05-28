@@ -4,7 +4,7 @@ export default function DeleteWord(props) {
   const { wordId, onDelete } = props;
 
   const handleDelete = () => {
-    fetch(`https://video-english.azurewebsites.net/api/SavedWord/${wordId}&${Window.userId}`, {
+    fetch(`${Window.route}/api/SavedWord/${wordId}&${Window.userId}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',

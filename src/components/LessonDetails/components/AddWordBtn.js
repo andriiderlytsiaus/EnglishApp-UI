@@ -5,7 +5,7 @@ export default function MyComponent(props) {
   const userId = Window.userId;
 
   const handleAddClick = () => {
-    const apiUrl = `https://video-english.azurewebsites.net/api/SavedWord/${word}&${userId}`;
+    const apiUrl = `${Window.route}/api/SavedWord/${word}&${userId}`;
 
   
     fetch(apiUrl, {
